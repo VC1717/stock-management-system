@@ -43,7 +43,6 @@ app.get('/low-stock', (req, res) => {
     res.json(lowStock);
 });
 
-// Add this route before app.listen()
 app.get('/', (req, res) => {
     res.send(`
         <h1>Stock Management Dashboard</h1>
